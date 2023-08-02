@@ -6,4 +6,4 @@ RUN mkdir /usr/src/app -p
 WORKDIR /usr/src/app/
 
 ADD . /usr/src/app/
-CMD ./stream.sh
+CMD bash stream.sh
